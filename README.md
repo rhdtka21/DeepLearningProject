@@ -1,6 +1,6 @@
 # 
 
-# ** AI+X Deep Learning Project **
+# **AI+X Deep Learning Project**
 
 [![img](https://1.bp.blogspot.com/-MnOCX8sGAJY/Xe4Fjhp-9mI/AAAAAAAAAE8/4mIZqP3ixG0SAhV1--hzwWga287Yxpx6gCK4BGAYYCw/s640/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA%2B2019-12-09%2B%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE%2B5.27.23.png)](https://1.bp.blogspot.com/-MnOCX8sGAJY/Xe4Fjhp-9mI/AAAAAAAAAE8/4mIZqP3ixG0SAhV1--hzwWga287Yxpx6gCK4BGAYYCw/s1600/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%2B2019-12-09%2B%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2B5.27.23.png)
 
@@ -29,13 +29,13 @@
 
 
 
-### I. Introduction
+## I. Introduction
 
  본 프로젝트에서 설명할 내용은 Kaggle 사이트에 올라온 House Prices: Advanced Regression Techniques (https://www.kaggle.com/c/house-prices-advanced-regression-techniques)을 수행해 내는 것입니다. 이 프로젝트의 내용을 간략히 요약하자면 주택에 관한 여러가지 데이터들, 주택의 위치나 주택의 가격 등 주택의 특징을 분석하고 학습하여 주택의 특징으로 주택의 가격을 도출해 내는 것입니다.
 
 
 
-### II. Datasets
+## II. Datasets
 
  Dataset을 보면 단순히 연속적인 값들만 존재하는 것이 아니라 문자열 값들도 주어집니다. 그렇기 때문에 선형 회귀를 적용하는 것은 적합하지 않아서 위와 같은 모델들을 선정하였습니다. 또한, 여러 가지 feature가 존재하는 만큼 이 중에서 주택 가격 예측에 좋은 영향을 끼치는 feature도 있을 것이고, 나쁜 영향을 끼치는 feature도 있을 것입니다. 이러한 feature들의 영향력은 모델링 도중 가중치에 따라서 늘어나거나 줄어들 수 있으며, 차원 축소(PCA 알고리즘 등) 등의 방식을 통해 feature를 인위적으로 가공하거나 제거할 수도 있습니다.
 
@@ -43,7 +43,7 @@
 
 
 
-### III. Methodology
+## III. Methodology
 
 - 이번 프로젝트의 과정에서는 2개의 알고리즘 방법인 XGBoost와 Logistic Regression을 각각 이용하여 이 두개의 알고리즘을 더욱 깊게 이해하면서 이 방법들이 어떠한 차이를 보이는지와 결과값을 도출해 내는 과정을 그래프를 통해 확인할 것입니다. 더욱 나아가 프로그래밍을 통해 딥러닝의 학습시키는 과정에 대해 이해하는 것이 프로젝트의 최종 목표입니다.
 
@@ -59,7 +59,7 @@
 
 
 
-### IV. Evaluation & Analysis
+## IV. Evaluation & Analysis
 
 - 아래는 실제로 코드를 통해 구현한 내용입니다.
 
@@ -453,7 +453,7 @@ multi_class: 다항 로지스틱 회귀를 사용하는 경우 ‘multinomial’
 
 
 
-### V. Conclusion: Discussion
+## V. Conclusion: Discussion
 
 XGBoost의 결과를 분석하기 위해서 실제 SalePrice의 값과 예측한 SalePrice의 차이를 수치로 나타내기 위해 각각의 데이터의 실제값과 예측값의 차이값을 모두 더하여 데이터의 수로 나눈 값을 계산하였습니다.
 
