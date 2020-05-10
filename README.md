@@ -29,6 +29,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 ## I. Introduction
 
  본 프로젝트에서 설명할 내용은 Kaggle 사이트에 올라온 House Prices: Advanced Regression Techniques (https://www.kaggle.com/c/house-prices-advanced-regression-techniques)을 수행해 내는 것입니다. 이 프로젝트의 내용을 간략히 요약하자면 주택에 관한 여러가지 데이터들, 주택의 위치나 주택의 가격 등 주택의 특징을 분석하고 학습하여 주택의 특징으로 주택의 가격을 도출해 내는 것입니다.
